@@ -1,5 +1,9 @@
+// ================================
 // Part 1: Variables and Conditionals
+// ================================
+
 let age = 20;
+
 if (age >= 18) {
     console.log("You are an adult.");
     document.getElementById("output").textContent = "You are an adult.";
@@ -7,7 +11,10 @@ if (age >= 18) {
     console.log("You are a minor.");
 }
 
+// ================================
 // Part 2: Functions
+// ================================
+
 function greetUser(name) {
     return `Hello, ${name}! Welcome to JS learning.`;
 }
@@ -20,7 +27,9 @@ function calculateSum(a, b) {
 console.log(greetUser("Winnie"));
 console.log("Sum:", calculateSum(5, 7));
 
+// ================================
 // Part 3: Loops
+// ================================
 
 // For loop example
 for (let i = 1; i <= 5; i++) {
@@ -38,7 +47,9 @@ while (count > 0) {
 const fruits = ["Apple", "Banana", "Cherry"];
 fruits.forEach(fruit => console.log(fruit));
 
+// ================================
 // Part 4: DOM Manipulation
+// ================================
 
 // 1. Change text
 document.getElementById("output").textContent = "JS is interactive!";
@@ -56,29 +67,3 @@ button.addEventListener("click", () => {
 document.body.addEventListener("dblclick", () => {
     document.body.classList.toggle("highlight");
 });
-
-// ================================
-// Part 1: Variables and Conditionals
-// ================================
-
-// Your code here
-
-// ================================
-// Part 2: Functions
-// ================================
-
-// Your code here
-
-// ================================
-// Part 3: Loops
-// ================================
-
-// Your code here
-
-// ================================
-// Part 4: DOM Manipulation
-// ================================
-
-// Your code here
-
-
